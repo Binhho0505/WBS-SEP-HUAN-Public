@@ -1,0 +1,3329 @@
+[
+  {
+    "source_id": "TPL01",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\CC1-GOV-PLN-001_De-cuong-ke-hoach-xay-dung-OBS-WBS-CBS_v1.0_DRF (1).docx",
+    "filename": "CC1-GOV-PLN-001_De-cuong-ke-hoach-xay-dung-OBS-WBS-CBS_v1.0_DRF (1).docx",
+    "sha256": "bfff8cfc687295946e64b250f590ae9b411fc764c7dd13a29f290b408150e441",
+    "bytes": 127480,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "text_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL01.txt",
+    "text_chars": 77595,
+    "coverage": "Text paragraphs/shapes extracted; embedded images and diagram geometry not semantically read",
+    "unchanged_after_read": true
+  },
+  {
+    "source_id": "TPL02",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\CC1-LBS-WBS-BOQ-XL-DT-01-01-V0.2.0-DRAFT.xlsx",
+    "filename": "CC1-LBS-WBS-BOQ-XL-DT-01-01-V0.2.0-DRAFT.xlsx",
+    "sha256": "199de9d8955ea884f27f60db424589af94bc7dbaba9fba7b5556c8019b78c589",
+    "bytes": 287509,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "sheets": [
+      {
+        "sheet": "01_HUONG_DAN",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 23,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_01.json",
+        "formula_count": 16,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "E6",
+            "formula": "='06_RECONCILIATION'!B5",
+            "cached": 396
+          },
+          {
+            "cell": "F6",
+            "formula": "='06_RECONCILIATION'!D5",
+            "cached": "PASS"
+          },
+          {
+            "cell": "E7",
+            "formula": "='06_RECONCILIATION'!B7",
+            "cached": 1995431341777
+          },
+          {
+            "cell": "F7",
+            "formula": "='06_RECONCILIATION'!D7",
+            "cached": "PASS"
+          },
+          {
+            "cell": "E8",
+            "formula": "='06_RECONCILIATION'!B8",
+            "cached": 169084305357
+          },
+          {
+            "cell": "F8",
+            "formula": "='06_RECONCILIATION'!D8",
+            "cached": "INFO"
+          },
+          {
+            "cell": "E9",
+            "formula": "='06_RECONCILIATION'!B9",
+            "cached": 1826347036420
+          },
+          {
+            "cell": "F9",
+            "formula": "='06_RECONCILIATION'!D9",
+            "cached": "INFO"
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "CC1 — ÁNH XẠ LBS.WBS.BOQ | Gói XL-ĐT.01.01"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bản DRAFT 0.2.0 · Chuẩn đầu ra 0.6.0 · Framework 1.5.0 · BOQ nguồn bất biến"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "Trường",
+              "Giá trị",
+              null,
+              "Chỉ tiêu",
+              "Giá trị",
+              "Trạng thái"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "Source_ID",
+              "BOQ-SRC-003",
+              null,
+              "Dòng BOQ",
+              396,
+              "PASS"
+            ]
+          },
+          {
+            "row": 7,
+            "cells": [
+              "Nguồn",
+              "05. Sample Project/04. 06.29.26 XL-ĐT.01.01_Phu luc gia hop dong.xlsx",
+              null,
+              "Tổng nguồn",
+              1995431341777,
+              "PASS"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "10_WP_BOQ_COMPOSITION",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 399,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_02.json",
+        "formula_count": 396,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "H5",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C5,'04_MAPPING'!K$5:K$400)",
+            "cached": 3013394787
+          },
+          {
+            "cell": "H6",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C6,'04_MAPPING'!K$5:K$400)",
+            "cached": 42934747
+          },
+          {
+            "cell": "H7",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C7,'04_MAPPING'!K$5:K$400)",
+            "cached": 2869774382
+          },
+          {
+            "cell": "H8",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C8,'04_MAPPING'!K$5:K$400)",
+            "cached": 67554513488
+          },
+          {
+            "cell": "H9",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C9,'04_MAPPING'!K$5:K$400)",
+            "cached": 4743208661
+          },
+          {
+            "cell": "H10",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C10,'04_MAPPING'!K$5:K$400)",
+            "cached": 797171366
+          },
+          {
+            "cell": "H11",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C11,'04_MAPPING'!K$5:K$400)",
+            "cached": 46038027
+          },
+          {
+            "cell": "H12",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$400,C12,'04_MAPPING'!K$5:K$400)",
+            "cached": 649807640
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "CẤU THÀNH GÓI CÔNG VIỆC LBS.WBS.BOQ"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "A/B gộp dọc riêng theo occurrence gói công việc · C:K giữ từng BOQ Line ID"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "LBS_Code_Set / LBS.WBS_code",
+              "Diễn giải",
+              "BOQ_Line_ID",
+              "Mô tả công việc tương ứng BOQ Line ID",
+              "Đơn vị tính",
+              "Khối lượng",
+              "Đơn giá",
+              "Giá trị BOQ nguồn",
+              "Candidate WBS_code",
+              "Căn cứ ánh xạ",
+              "USER comment"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLD1.B3050",
+              "Toàn phạm vi XL-ĐT.01.01 — Km0+000–Km6+356,9 × Thiết kế bản vẽ thi công",
+              "XLD1-BOQ-0001",
+              "Chi phí thiết kế bước bản vẽ thi công",
+              "Trọn gói",
+              1,
+              3013394787,
+              3013394787,
+              "B3050",
+              "Chi phí tạo bộ thiết kế bản vẽ thi công; B3050 là Kết quả tài liệu hiện hữu."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLD1.DD01.I1010",
+              "Phần tuyến Km0+000–Km6+356,9 × Dọn dẹp, phát quang và bóc phong hóa",
+              "XLD1-BOQ-0002",
+              "Dọn dẹp mặt bằng",
+              "100m²",
+              635.12,
+              67601,
+              42934747,
+              "I1010",
+              "Ghép theo bản chất lớp/kết quả đường; vật liệu, cấp phối, chiều dày và định lượng giữ ở BOQ/CBS."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "06_RECONCILIATION",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 40,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_03.json",
+        "formula_count": 52,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "B5",
+            "formula": "=COUNTA('02_BOQ_NGUON'!A5:A400)",
+            "cached": 396
+          },
+          {
+            "cell": "D5",
+            "formula": "=IF(B5=396,\"PASS\",\"FAIL\")",
+            "cached": "PASS"
+          },
+          {
+            "cell": "B6",
+            "formula": "=COUNTA('04_MAPPING'!B5:B400)",
+            "cached": 396
+          },
+          {
+            "cell": "D6",
+            "formula": "=IF(B6=B5,\"PASS\",\"FAIL\")",
+            "cached": "PASS"
+          },
+          {
+            "cell": "B7",
+            "formula": "=SUM('02_BOQ_NGUON'!I5:I400)",
+            "cached": 1995431341777
+          },
+          {
+            "cell": "D7",
+            "formula": "=IF(B7=1995431341777,\"PASS\",\"FAIL\")",
+            "cached": "PASS"
+          },
+          {
+            "cell": "B8",
+            "formula": "=SUM('04_MAPPING'!W5:W400)",
+            "cached": 169084305357
+          },
+          {
+            "cell": "D8",
+            "formula": "=IF(B8>=0,\"INFO\",\"FAIL\")",
+            "cached": "INFO"
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "ĐỐI SOÁT LẤP ĐẦY VÀ CỔNG QA"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Chỉ tiêu tính từ BOQ nguồn và Mapping; COMP-009 kiểm soát sheet 10"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Chỉ tiêu",
+              "Giá trị",
+              "Nguồn/Công thức",
+              "Kết quả",
+              "Ghi chú"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "Số dòng BOQ nguồn",
+              396,
+              "COUNTA BOQ_Line_ID",
+              "PASS",
+              "396 BOQ line"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "Số dòng ánh xạ",
+              396,
+              "COUNTA Mapping.BOQ_Line_ID",
+              "PASS",
+              "Một mapping mang giá trị cho mỗi BOQ line ở profile 1.2"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "05_EXCEPTION",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 377,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_04.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "NGOẠI LỆ, ROLL-UP VÀ TEM"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bảng lọc từ sheet 10 để quản trị việc còn mở · Không phải BOQ bổ sung · Không cộng giá trị lần hai"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "BOQ_Line_ID",
+              "STT",
+              "Mô tả BOQ",
+              "Giá trị BOQ nguồn",
+              "LBS.WBS_Code",
+              "Candidate_WBS_Code",
+              "Loại ngoại lệ",
+              "Disposition",
+              "Reason_Code",
+              "Căn cứ ánh xạ",
+              "Register_ID",
+              "Hành động cần thiết",
+              "Trạng thái"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLD1-BOQ-0007",
+              7,
+              "Tưới lớp nhựa dính bám 0,5kg/m2 (nhũ tương polime)",
+              46038027,
+              "XLD1.DD01.I3010",
+              "I3010",
+              "MATCHED_ALLOCATED",
+              "NOT_WBS",
+              "ACTIVITY_COST_OF",
+              "Ghép theo bản chất lớp/kết quả đường; vật liệu, cấp phối, chiều dày và định lượng giữ ở BOQ/CBS.",
+              "WBE-004",
+              "Tiếp tục xử lý theo WBS Register; không sửa canonical từ workbook.",
+              "PENDING_REVIEW"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLD1-BOQ-0009",
+              9,
+              "Tưới lớp nhựa dính bám 0,5kg/m2",
+              31019151,
+              "XLD1.DD01.I3010",
+              "I3010",
+              "MATCHED_ALLOCATED",
+              "NOT_WBS",
+              "ACTIVITY_COST_OF",
+              "Ghép theo bản chất lớp/kết quả đường; vật liệu, cấp phối, chiều dày và định lượng giữ ở BOQ/CBS.",
+              "WBE-004",
+              "Tiếp tục xử lý theo WBS Register; không sửa canonical từ workbook.",
+              "PENDING_REVIEW"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "02_BOQ_NGUON",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 399,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_05.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "BOQ NGUỒN CHUẨN HÓA"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bảo toàn 396 dòng thanh toán; trường không có trong nguồn để trống"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "BOQ_Line_ID",
+              "STT",
+              "Mã thanh toán",
+              "Mô tả công việc",
+              "Yêu cầu kỹ thuật",
+              "Đơn vị tính",
+              "Khối lượng",
+              "Đơn giá trước thuế",
+              "Giá trị BOQ nguồn",
+              "Đường dẫn tiêu đề",
+              "Source_Workbook",
+              "Source_Sheet",
+              "Source_Row",
+              "Source_Ref",
+              "Source_ID",
+              "Source_SHA256",
+              "Source_Status"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLD1-BOQ-0001",
+              1,
+              null,
+              "Chi phí thiết kế bước bản vẽ thi công",
+              "Chương IV. Yêu cầu về xây lắp",
+              "Trọn gói",
+              1,
+              3013394787,
+              3013394787,
+              "A — CHI PHÍ XÂY DỰNG > I — HẠNG MỤC CHUNG",
+              "04. 06.29.26 XL-ĐT.01.01_Phu luc gia hop dong.xlsx",
+              "PL2_GIA HĐ",
+              10,
+              "PL2_GIA HĐ!10:10",
+              "BOQ-SRC-003",
+              "03FCDA859A198C6D049E596583DAE9CF22D4B2D8416A39663C5F6ACA6AF02F5F",
+              "ACTIVE"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLD1-BOQ-0002",
+              2,
+              null,
+              "Dọn dẹp mặt bằng",
+              "Chương IV. Yêu cầu về xây lắp",
+              "100m²",
+              635.12,
+              67601,
+              42934747,
+              "A — CHI PHÍ XÂY DỰNG > II — PHẦN TUYẾN > II.1 — DỌN DẸP MẶT BẰNG",
+              "04. 06.29.26 XL-ĐT.01.01_Phu luc gia hop dong.xlsx",
+              "PL2_GIA HĐ",
+              13,
+              "PL2_GIA HĐ!13:13",
+              "BOQ-SRC-003",
+              "03FCDA859A198C6D049E596583DAE9CF22D4B2D8416A39663C5F6ACA6AF02F5F",
+              "ACTIVE"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "04_MAPPING",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 399,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_06.json",
+        "formula_count": 1980,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "K5",
+            "formula": "='02_BOQ_NGUON'!I5",
+            "cached": 3013394787
+          },
+          {
+            "cell": "W5",
+            "formula": "=IF(Q5=\"MATCHED_ALLOCATED\",K5,0)",
+            "cached": 3013394787
+          },
+          {
+            "cell": "X5",
+            "formula": "=IF(Q5=\"MATCHED_UNALLOCATED\",K5,0)",
+            "cached": 0
+          },
+          {
+            "cell": "Y5",
+            "formula": "=IF(Q5=\"UNMATCHED\",K5,0)",
+            "cached": 0
+          },
+          {
+            "cell": "Z5",
+            "formula": "=K5-W5-X5-Y5",
+            "cached": 0
+          },
+          {
+            "cell": "K6",
+            "formula": "='02_BOQ_NGUON'!I6",
+            "cached": 42934747
+          },
+          {
+            "cell": "W6",
+            "formula": "=IF(Q6=\"MATCHED_ALLOCATED\",K6,0)",
+            "cached": 42934747
+          },
+          {
+            "cell": "X6",
+            "formula": "=IF(Q6=\"MATCHED_UNALLOCATED\",K6,0)",
+            "cached": 0
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "ÁNH XẠ BOQ → LBS × WBS"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bảng kỹ thuật đầy đủ · Cổng semantic fit và thẩm quyền WBS theo DEC-187"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Mapping_ID",
+              "BOQ_Line_ID",
+              "Source_Sheet",
+              "Source_Row",
+              "STT",
+              "Heading_Path",
+              "Description",
+              "UOM",
+              "Quantity",
+              "Unit_Price",
+              "Source_Value",
+              "LBS_Coverage_Code",
+              "LBS.WBS_Code",
+              "WBS_Code",
+              "WBS_Name",
+              "Candidate_WBS_Code",
+              "Mapping_Status",
+              "Mapping_Role",
+              "Disposition",
+              "Reason_Code",
+              "Mapping_Basis",
+              "Register_ID",
+              "Mapped_Value",
+              "Unallocated_Value",
+              "Unmatched_Value",
+              "Balance_Check",
+              "Key_Type",
+              "Allocation_Status",
+              "Verifies_WBS_Code",
+              "Review_Status",
+              "Reviewer_Note",
+              "Heading_Occurrence_ID",
+              "Aggregation_Intent",
+              "Work_Package_Occurrence_ID",
+              "Mapping_Group_ID",
+              "Group_Type",
+              "LBS_Code_Set",
+              "LBS_Name_Set",
+              "Group_Cardinality",
+              "Value_Count_Rule",
+              "Coverage_Kind",
+              "Occurrence_Status",
+              "Is_Aggregate",
+              "Value_Scope",
+              "WBS_Authority_Status",
+              "Canonical_Fit_Status",
+              "Semantic_Fit_Basis"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLD1-MAP-0001",
+              "XLD1-BOQ-0001",
+              "PL2_GIA HĐ",
+              10,
+              1,
+              "A — CHI PHÍ XÂY DỰNG > I — HẠNG MỤC CHUNG",
+              "Chi phí thiết kế bước bản vẽ thi công",
+              "Trọn gói",
+              1,
+              3013394787,
+              3013394787,
+              "XLD1",
+              "XLD1.B3050",
+              "B3050",
+              "Thiết kế bản vẽ thi công",
+              "B3050",
+              "MATCHED_ALLOCATED",
+              "DOCUMENT_RESULT",
+              "USE_EXISTING",
+              "DIRECT_MATCH",
+              "Chi phí tạo bộ thiết kế bản vẽ thi công; B3050 là Kết quả tài liệu hiện hữu.",
+              null,
+              3013394787,
+              0,
+              0,
+              0,
+              "CURRENT_KEY",
+              "ALLOCATED",
+              null,
+              "PENDING_REVIEW",
+              null,
+              "BOQ-SRC-003-HDG-0001",
+              "NO",
+              "XLD1-WPO-0001-B3050",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "SOURCE_SCOPE",
+              "CONFIRMED_BY_SOURCE",
+              "NO",
+              "SOURCE_SCOPE",
+              "CANONICAL",
+              "PASS",
+              "Chi phí tạo bộ thiết kế bản vẽ thi công; B3050 là Kết quả tài liệu hiện hữu."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLD1-MAP-0002",
+              "XLD1-BOQ-0002",
+              "PL2_GIA HĐ",
+              13,
+              2,
+              "A — CHI PHÍ XÂY DỰNG > II — PHẦN TUYẾN > II.1 — DỌN DẸP MẶT BẰNG",
+              "Dọn dẹp mặt bằng",
+              "100m²",
+              635.12,
+              67601,
+              42934747,
+              "XLD1.DD01",
+              "XLD1.DD01.I1010",
+              "I1010",
+              "Dọn dẹp, phát quang và bóc phong hóa",
+              "I1010",
+              "MATCHED_ALLOCATED",
+              "DELIVERS_RESULT",
+              "USE_EXISTING",
+              "DIRECT_MATCH",
+              "Ghép theo bản chất lớp/kết quả đường; vật liệu, cấp phối, chiều dày và định lượng giữ ở BOQ/CBS.",
+              null,
+              42934747,
+              0,
+              0,
+              0,
+              "CURRENT_KEY",
+              "ALLOCATED",
+              null,
+              "PENDING_REVIEW",
+              null,
+              "BOQ-SRC-003-HDG-0002",
+              "NO",
+              "XLD1-WPO-0002-I1010",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "SOURCE_SCOPE",
+              "CONFIRMED_BY_SOURCE",
+              "NO",
+              "SOURCE_SCOPE",
+              "CANONICAL",
+              "PASS",
+              "Ghép theo bản chất lớp/kết quả đường; vật liệu, cấp phối, chiều dày và định lượng giữ ở BOQ/CBS."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "03_LBS",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 25,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_07.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "LBS DỰ ÁN TỐI THIỂU"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Chỉ mở node có bằng chứng; không tạo occurrence giả"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "LBS_ID",
+              "LBS_Code",
+              "Parent_LBS_ID",
+              "LBS_Level",
+              "LBS_Type",
+              "Tên phạm vi",
+              "Source_Ref",
+              "Detail_Status",
+              "Status",
+              "Ghi chú"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "LBS-XLD1",
+              "XLD1",
+              null,
+              1,
+              "PRJ",
+              "Toàn phạm vi XL-ĐT.01.01 — Km0+000–Km6+356,9",
+              "PL2 — phạm vi Km0+000–Km6+356,9",
+              "CONFIRMED_BY_SOURCE",
+              "DRAFT",
+              "Tên gói thầu được lưu tại metadata, không dùng làm loại vị trí."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "LBS-XLD1-DD01",
+              "XLD1.DD01",
+              "LBS-XLD1",
+              2,
+              "DDA",
+              "Phần tuyến Km0+000–Km6+356,9",
+              "PL2 — II PHẦN TUYẾN",
+              "CONFIRMED_BY_SOURCE",
+              "DRAFT",
+              "Chưa phân đoạn theo mũi/đợt."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "07_LBS_WBS_REF",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 119,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_08.json",
+        "formula_count": 580,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "H5",
+            "formula": "=COUNTIF('04_MAPPING'!M$5:M$400,A5)",
+            "cached": 1
+          },
+          {
+            "cell": "I5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$400,A5,'04_MAPPING'!K$5:K$400)",
+            "cached": 2733480496
+          },
+          {
+            "cell": "J5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$400,A5,'04_MAPPING'!W$5:W$400)",
+            "cached": 2733480496
+          },
+          {
+            "cell": "K5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$400,A5,'04_MAPPING'!X$5:X$400)",
+            "cached": 0
+          },
+          {
+            "cell": "L5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$400,A5,'04_MAPPING'!Y$5:Y$400)",
+            "cached": 0
+          },
+          {
+            "cell": "H6",
+            "formula": "=COUNTIF('04_MAPPING'!M$5:M$400,A6)",
+            "cached": 1
+          },
+          {
+            "cell": "I6",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$400,A6,'04_MAPPING'!K$5:K$400)",
+            "cached": 1733979765
+          },
+          {
+            "cell": "J6",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$400,A6,'04_MAPPING'!W$5:W$400)",
+            "cached": 0
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "DANH MỤC KHÓA LBS.WBS"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Một dòng cho mỗi khóa unique; giá trị tính từ 04_MAPPING"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "LBS.WBS_Code",
+              "LBS_Coverage_Code",
+              "WBS_Code",
+              "WBS_Name",
+              "Key_Type",
+              "Mapping_Status",
+              "Register_ID",
+              "Số dòng BOQ",
+              "Tổng giá trị nguồn",
+              "Đã phân bổ",
+              "Chưa phân bổ",
+              "Chưa ghép"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLD1.A7010",
+              "XLD1",
+              "A7010",
+              "Phương án và hệ thống bảo đảm giao thông đường bộ trong thi công",
+              "CURRENT_KEY",
+              "MATCHED_ALLOCATED",
+              null,
+              1,
+              2733480496,
+              2733480496,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLD1.A80",
+              "XLD1",
+              "A80",
+              "Hệ thống điện phục vụ thi công",
+              "ROLLUP_CONTROL",
+              "MATCHED_UNALLOCATED",
+              "WBE-009",
+              1,
+              1733979765,
+              0,
+              1733979765,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "08_TEMP_ROLLUP_REF",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 118,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_09.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "THAM CHIẾU TEM VÀ ROLL-UP"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "TEM dùng tạm; roll-up kiểm soát phần chưa đủ occurrence/độ sâu WBS"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Record_Type",
+              "Code",
+              "Name/Role",
+              "Parent/Coverage",
+              "Key_Type",
+              "Value_Eligible",
+              "Status",
+              "Candidate_WBS",
+              "Verifies_WBS",
+              "Source_IDs",
+              "Register_ID",
+              "Replacement_Plan"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "TEMP_WBS",
+              "TEM0100",
+              "Kết quả thí nghiệm cọc",
+              null,
+              "ROLLUP",
+              "NO",
+              "UNDER_AUDIT",
+              "E",
+              null,
+              "BOQ-SRC-003",
+              "WBR-002; WBE-002",
+              "Thay bằng mã canonical sau audit và Decision; không sửa Twin từ workbook."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "TEMP_WBS",
+              "TEM0101",
+              "Kết quả kiểm tra tính đồng nhất thân cọc",
+              null,
+              "LEAF",
+              "YES",
+              "UNDER_AUDIT",
+              "E",
+              null,
+              "BOQ-SRC-003",
+              "WBR-002; WBE-002",
+              "Thay bằng mã canonical sau audit và Decision; không sửa Twin từ workbook."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "09_VERIFICATION_MAP",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 26,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_10.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "ÁNH XẠ QUAN HỆ XÁC MINH"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "VERIFIES không mang giá trị; không tự suy diễn mã được xác minh"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Verification_ID",
+              "BOQ_Line_ID",
+              "Test_LBS_WBS_Code",
+              "Verified_WBS_Code",
+              "LBS_Coverage_Code",
+              "Relationship_Type",
+              "Test_Method",
+              "Verification_Status",
+              "Value_Count_Flag",
+              "Source_Mapping_ID",
+              "Register_ID",
+              "Source_Ref"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLDT0101-VER-0001",
+              "XLD1-BOQ-0031",
+              "XLD1.DD01.TEM0201",
+              "G5050",
+              "XLD1.DD01",
+              "VERIFIES",
+              "Khoan lõi kiểm tra trụ CDM",
+              "LINKED",
+              "NO",
+              "XLD1-MAP-0031",
+              "WBR-011; WBE-006",
+              "PL2_GIA HĐ!51:51"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLDT0101-VER-0002",
+              "XLD1-BOQ-0032",
+              "XLD1.DD01.TEM0201",
+              "G5050",
+              "XLD1.DD01",
+              "VERIFIES",
+              "Thí nghiệm nén 1 trục nở hông",
+              "LINKED",
+              "NO",
+              "XLD1-MAP-0032",
+              "WBR-011; WBE-006",
+              "PL2_GIA HĐ!52:52"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "11_FRAMEWORK_DELTA",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 5,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL02_11.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "FRAMEWORK DELTA REGISTER"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Chỉ ghi vấn đề phương pháp dùng chung; không sửa Framework/Twin trong lượt build"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Delta_ID",
+              "Source_ID",
+              "Vấn đề phát hiện",
+              "Khoảng trống dùng chung?",
+              "Đề xuất",
+              "Bằng chứng",
+              "Sheet/Rule bị ảnh hưởng",
+              "Trạng thái",
+              "Decision_ID"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "FDR-003",
+              "BOQ-SRC-003",
+              "Profile LBS dự án đường chưa khóa node coverage tổng hợp cho hầm chui dân sinh dưới đoạn tuyến.",
+              "YES",
+              "Bổ sung pattern PRJ → DDA → HC00/HCxx; HC00 chỉ giữ phần chưa phân bổ occurrence.",
+              "BOQ-SRC-003, II.7 HẦM CHUI DÂN SINH.",
+              "04_MAPPING; 05_EXCEPTION; 06_RECONCILIATION",
+              "PROPOSAL"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "FDR-004",
+              "BOQ-SRC-003",
+              "BOQ có thể gộp đồng thời mố và trụ trong một block cấu phần mà chưa có phân bổ WBS/LBS.",
+              "YES",
+              "Giữ một lần tại roll-up H20 và nhóm LBS-set M00/T00; không nhân giá trị, chờ allocation.",
+              "BOQ-SRC-003, block 'Thân mố, trụ'.",
+              "04_MAPPING; 05_EXCEPTION; 06_RECONCILIATION",
+              "PROPOSAL"
+            ]
+          }
+        ]
+      }
+    ],
+    "unchanged_after_read": true
+  },
+  {
+    "source_id": "TPL03",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\CC1-LBS-WBS-BOQ-XL-NS-02-02-CAU-ME-SO-V0.2.0-DRAFT.xlsx",
+    "filename": "CC1-LBS-WBS-BOQ-XL-NS-02-02-CAU-ME-SO-V0.2.0-DRAFT.xlsx",
+    "sha256": "f4d83366993957e18e06c2c9c7755931173fea01a2593f24ab7de9bc1092a096",
+    "bytes": 373156,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "sheets": [
+      {
+        "sheet": "01_HUONG_DAN",
+        "max_row": 26,
+        "max_column": 6,
+        "nonempty_rows": 23,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_01.json",
+        "formula_count": 16,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "E6",
+            "formula": "='06_RECONCILIATION'!B5",
+            "cached": 601
+          },
+          {
+            "cell": "F6",
+            "formula": "='06_RECONCILIATION'!D5",
+            "cached": "PASS"
+          },
+          {
+            "cell": "E7",
+            "formula": "='06_RECONCILIATION'!B7",
+            "cached": 2936567147042
+          },
+          {
+            "cell": "F7",
+            "formula": "='06_RECONCILIATION'!D7",
+            "cached": "PASS"
+          },
+          {
+            "cell": "E8",
+            "formula": "='06_RECONCILIATION'!B8",
+            "cached": 2837752195392
+          },
+          {
+            "cell": "F8",
+            "formula": "='06_RECONCILIATION'!D8",
+            "cached": "INFO"
+          },
+          {
+            "cell": "E9",
+            "formula": "='06_RECONCILIATION'!B9",
+            "cached": 95009617471
+          },
+          {
+            "cell": "F9",
+            "formula": "='06_RECONCILIATION'!D9",
+            "cached": "INFO"
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "CC1 — ÁNH XẠ LBS.WBS.BOQ | Gói XL-NS.02.02 — Cầu Mễ Sở"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bản DRAFT 0.2.0 · Chuẩn đầu ra 0.6.0 · Framework 1.7.0 · BOQ nguồn bất biến"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "Trường",
+              "Giá trị",
+              null,
+              "Chỉ tiêu",
+              "Giá trị",
+              "Trạng thái"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "Source_ID",
+              "BOQ-SRC-004",
+              null,
+              "Dòng BOQ",
+              601,
+              "PASS"
+            ]
+          },
+          {
+            "row": 7,
+            "cells": [
+              "Nguồn",
+              "05. Sample Project/05. Phu luc gia hop dong XL-NS.02.02 Cau Me So.xlsx",
+              null,
+              "Tổng nguồn",
+              2936567147042,
+              "PASS"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "10_WP_BOQ_COMPOSITION",
+        "max_row": 605,
+        "max_column": 11,
+        "nonempty_rows": 604,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_02.json",
+        "formula_count": 601,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "H5",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C5,'04_MAPPING'!K$5:K$605)",
+            "cached": 395454545
+          },
+          {
+            "cell": "H6",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C6,'04_MAPPING'!K$5:K$605)",
+            "cached": 4403154294
+          },
+          {
+            "cell": "H7",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C7,'04_MAPPING'!K$5:K$605)",
+            "cached": 745454022
+          },
+          {
+            "cell": "H8",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C8,'04_MAPPING'!K$5:K$605)",
+            "cached": 25008415852
+          },
+          {
+            "cell": "H9",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C9,'04_MAPPING'!K$5:K$605)",
+            "cached": 21507084192
+          },
+          {
+            "cell": "H10",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C10,'04_MAPPING'!K$5:K$605)",
+            "cached": 576712092
+          },
+          {
+            "cell": "H11",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C11,'04_MAPPING'!K$5:K$605)",
+            "cached": 14846490
+          },
+          {
+            "cell": "H12",
+            "formula": "=SUMIF('04_MAPPING'!B$5:B$605,C12,'04_MAPPING'!K$5:K$605)",
+            "cached": 58776957
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "CẤU THÀNH GÓI CÔNG VIỆC LBS.WBS.BOQ"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "A/B gộp dọc riêng theo occurrence gói công việc · C:K giữ từng BOQ Line ID"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "LBS_Code_Set / LBS.WBS_code",
+              "Diễn giải",
+              "BOQ_Line_ID",
+              "Mô tả công việc tương ứng BOQ Line ID",
+              "Đơn vị tính",
+              "Khối lượng",
+              "Đơn giá",
+              "Giá trị BOQ nguồn",
+              "Candidate WBS_code",
+              "Căn cứ ánh xạ",
+              "USER comment"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "CMS.B1030",
+              "Toàn phạm vi gói XL-NS.02.02 Cầu Mễ Sở × Báo cáo kết quả khảo sát xây dựng",
+              "NS02-BOQ-0001",
+              "CHI PHÍ KHẢO SÁT BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              "Trọn gói",
+              1,
+              395454545,
+              395454545,
+              "B1030",
+              "Nguồn gộp chi phí khảo sát bước thiết kế bản vẽ thi công, chưa phân bổ bốn loại báo cáo B1030.10–B1030.40; giữ một lần tại B1030."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "CMS.B3050",
+              "Toàn phạm vi gói XL-NS.02.02 Cầu Mễ Sở × Thiết kế bản vẽ thi công",
+              "NS02-BOQ-0002",
+              "CHI PHÍ THIẾT KẾ BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              "Trọn gói",
+              1,
+              4403154294,
+              4403154294,
+              "B3050",
+              "Chi phí tạo bộ thiết kế bản vẽ thi công phù hợp B3050."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "06_RECONCILIATION",
+        "max_row": 47,
+        "max_column": 5,
+        "nonempty_rows": 42,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_03.json",
+        "formula_count": 54,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "B5",
+            "formula": "=COUNTA('02_BOQ_NGUON'!A5:A605)",
+            "cached": 601
+          },
+          {
+            "cell": "D5",
+            "formula": "=IF(B5=601,\"PASS\",\"FAIL\")",
+            "cached": "PASS"
+          },
+          {
+            "cell": "B6",
+            "formula": "=COUNTA('04_MAPPING'!B5:B605)",
+            "cached": 601
+          },
+          {
+            "cell": "D6",
+            "formula": "=IF(B6=B5,\"PASS\",\"FAIL\")",
+            "cached": "PASS"
+          },
+          {
+            "cell": "B7",
+            "formula": "=SUM('02_BOQ_NGUON'!I5:I605)",
+            "cached": 2936567147042
+          },
+          {
+            "cell": "D7",
+            "formula": "=IF(B7=2936567147042,\"PASS\",\"FAIL\")",
+            "cached": "PASS"
+          },
+          {
+            "cell": "B8",
+            "formula": "=SUM('04_MAPPING'!W5:W605)",
+            "cached": 2837752195392
+          },
+          {
+            "cell": "D8",
+            "formula": "=IF(B8>=0,\"INFO\",\"FAIL\")",
+            "cached": "INFO"
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "ĐỐI SOÁT LẤP ĐẦY VÀ CỔNG QA"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Chỉ tiêu tính từ BOQ nguồn và Mapping; COMP-009 kiểm soát sheet 10"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Chỉ tiêu",
+              "Giá trị",
+              "Nguồn/Công thức",
+              "Kết quả",
+              "Ghi chú"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "Số dòng BOQ nguồn",
+              601,
+              "COUNTA BOQ_Line_ID",
+              "PASS",
+              "601 BOQ line"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "Số dòng ánh xạ",
+              601,
+              "COUNTA Mapping.BOQ_Line_ID",
+              "PASS",
+              "Một mapping mang giá trị cho mỗi BOQ line ở profile 1.2"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "05_EXCEPTION",
+        "max_row": 289,
+        "max_column": 13,
+        "nonempty_rows": 288,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_04.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "NGOẠI LỆ, ROLL-UP VÀ TEM"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bảng lọc từ sheet 10 để quản trị việc còn mở · Không phải BOQ bổ sung · Không cộng giá trị lần hai"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "BOQ_Line_ID",
+              "STT",
+              "Mô tả BOQ",
+              "Giá trị BOQ nguồn",
+              "LBS.WBS_Code",
+              "Candidate_WBS_Code",
+              "Loại ngoại lệ",
+              "Disposition",
+              "Reason_Code",
+              "Căn cứ ánh xạ",
+              "Register_ID",
+              "Hành động cần thiết",
+              "Trạng thái"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "NS02-BOQ-0001",
+              "1",
+              "CHI PHÍ KHẢO SÁT BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              395454545,
+              "CMS.B1030",
+              "B1030",
+              "MATCHED_UNALLOCATED",
+              "ROLLUP_REQUIRED",
+              "WBS_DEPTH_ROLLUP",
+              "Nguồn gộp chi phí khảo sát bước thiết kế bản vẽ thi công, chưa phân bổ bốn loại báo cáo B1030.10–B1030.40; giữ một lần tại B1030.",
+              "WBR-008; WBE-001",
+              "Tiếp tục xử lý theo WBS Register; không sửa canonical từ workbook.",
+              "PENDING_REVIEW"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "NS02-BOQ-0005",
+              "5",
+              "Thi công cọc khoan nhồi D2.0m",
+              21507084192,
+              "CMS.C01.KPD1.T00.F2010",
+              "F2010",
+              "MATCHED_ALLOCATED",
+              "USE_EXISTING",
+              "ATTRIBUTE_ONLY",
+              "Cọc khoan nhồi được chọn theo môi trường thi công trên cạn/dưới nước; đường kính là thuộc tính, không mở mã mới.",
+              "WBR-009",
+              "Tiếp tục xử lý theo WBS Register; không sửa canonical từ workbook.",
+              "PENDING_REVIEW"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "02_BOQ_NGUON",
+        "max_row": 605,
+        "max_column": 17,
+        "nonempty_rows": 604,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_05.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "BOQ NGUỒN CHUẨN HÓA"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bảo toàn 601 dòng thanh toán; trường không có trong nguồn để trống"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "BOQ_Line_ID",
+              "STT",
+              "Mã thanh toán",
+              "Mô tả công việc",
+              "Yêu cầu kỹ thuật",
+              "Đơn vị tính",
+              "Khối lượng",
+              "Đơn giá trước thuế",
+              "Giá trị BOQ nguồn",
+              "Đường dẫn tiêu đề",
+              "Source_Workbook",
+              "Source_Sheet",
+              "Source_Row",
+              "Source_Ref",
+              "Source_ID",
+              "Source_SHA256",
+              "Source_Status"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "NS02-BOQ-0001",
+              "1",
+              "1500",
+              "CHI PHÍ KHẢO SÁT BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              "Chương IV. Yêu cầu về xây lắp",
+              "Trọn gói",
+              1,
+              395454545,
+              395454545,
+              "CHI PHÍ XÂY DỰNG > HẠNG MỤC CHUNG",
+              "05. Phu luc gia hop dong XL-NS.02.02 Cau Me So.xlsx",
+              "PL2_GIA HD",
+              10,
+              "PL2_GIA HD!10:10",
+              "BOQ-SRC-004",
+              "6CA47FEFADFD5AEE894780C05296C1AD261BDB5E854803403EC7E33C088B06C7",
+              "ACTIVE"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "NS02-BOQ-0002",
+              "2",
+              "1500",
+              "CHI PHÍ THIẾT KẾ BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              "Chương IV. Yêu cầu về xây lắp",
+              "Trọn gói",
+              1,
+              4403154294,
+              4403154294,
+              "CHI PHÍ XÂY DỰNG > HẠNG MỤC CHUNG",
+              "05. Phu luc gia hop dong XL-NS.02.02 Cau Me So.xlsx",
+              "PL2_GIA HD",
+              11,
+              "PL2_GIA HD!11:11",
+              "BOQ-SRC-004",
+              "6CA47FEFADFD5AEE894780C05296C1AD261BDB5E854803403EC7E33C088B06C7",
+              "ACTIVE"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "04_MAPPING",
+        "max_row": 605,
+        "max_column": 47,
+        "nonempty_rows": 604,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_06.json",
+        "formula_count": 3005,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "K5",
+            "formula": "='02_BOQ_NGUON'!I5",
+            "cached": 395454545
+          },
+          {
+            "cell": "W5",
+            "formula": "=IF(Q5=\"MATCHED_ALLOCATED\",K5,0)",
+            "cached": 0
+          },
+          {
+            "cell": "X5",
+            "formula": "=IF(Q5=\"MATCHED_UNALLOCATED\",K5,0)",
+            "cached": 395454545
+          },
+          {
+            "cell": "Y5",
+            "formula": "=IF(Q5=\"UNMATCHED\",K5,0)",
+            "cached": 0
+          },
+          {
+            "cell": "Z5",
+            "formula": "=K5-W5-X5-Y5",
+            "cached": 0
+          },
+          {
+            "cell": "K6",
+            "formula": "='02_BOQ_NGUON'!I6",
+            "cached": 4403154294
+          },
+          {
+            "cell": "W6",
+            "formula": "=IF(Q6=\"MATCHED_ALLOCATED\",K6,0)",
+            "cached": 4403154294
+          },
+          {
+            "cell": "X6",
+            "formula": "=IF(Q6=\"MATCHED_UNALLOCATED\",K6,0)",
+            "cached": 0
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "ÁNH XẠ BOQ → LBS × WBS"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Bảng kỹ thuật đầy đủ · Cổng semantic fit và thẩm quyền WBS theo DEC-187"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Mapping_ID",
+              "BOQ_Line_ID",
+              "Source_Sheet",
+              "Source_Row",
+              "STT",
+              "Heading_Path",
+              "Description",
+              "UOM",
+              "Quantity",
+              "Unit_Price",
+              "Source_Value",
+              "LBS_Coverage_Code",
+              "LBS.WBS_Code",
+              "WBS_Code",
+              "WBS_Name",
+              "Candidate_WBS_Code",
+              "Mapping_Status",
+              "Mapping_Role",
+              "Disposition",
+              "Reason_Code",
+              "Mapping_Basis",
+              "Register_ID",
+              "Mapped_Value",
+              "Unallocated_Value",
+              "Unmatched_Value",
+              "Balance_Check",
+              "Key_Type",
+              "Allocation_Status",
+              "Verifies_WBS_Code",
+              "Review_Status",
+              "Reviewer_Note",
+              "Heading_Occurrence_ID",
+              "Aggregation_Intent",
+              "Work_Package_Occurrence_ID",
+              "Mapping_Group_ID",
+              "Group_Type",
+              "LBS_Code_Set",
+              "LBS_Name_Set",
+              "Group_Cardinality",
+              "Value_Count_Rule",
+              "Coverage_Kind",
+              "Occurrence_Status",
+              "Is_Aggregate",
+              "Value_Scope",
+              "WBS_Authority_Status",
+              "Canonical_Fit_Status",
+              "Semantic_Fit_Basis"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "NS02-MAP-0001",
+              "NS02-BOQ-0001",
+              "PL2_GIA HD",
+              10,
+              "1",
+              "CHI PHÍ XÂY DỰNG > HẠNG MỤC CHUNG",
+              "CHI PHÍ KHẢO SÁT BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              "Trọn gói",
+              1,
+              395454545,
+              395454545,
+              "CMS",
+              "CMS.B1030",
+              "B1030",
+              "Báo cáo kết quả khảo sát xây dựng",
+              "B1030",
+              "MATCHED_UNALLOCATED",
+              "DOCUMENT_RESULT",
+              "ROLLUP_REQUIRED",
+              "WBS_DEPTH_ROLLUP",
+              "Nguồn gộp chi phí khảo sát bước thiết kế bản vẽ thi công, chưa phân bổ bốn loại báo cáo B1030.10–B1030.40; giữ một lần tại B1030.",
+              "WBR-008; WBE-001",
+              0,
+              395454545,
+              0,
+              0,
+              "ROLLUP_CONTROL",
+              "UNALLOCATED",
+              null,
+              "PENDING_REVIEW",
+              null,
+              "BOQ-SRC-004-HDG-0001",
+              "NO",
+              "NS02-WPO-0001-B1030",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "SOURCE_SCOPE",
+              "CONFIRMED_BY_SOURCE",
+              "NO",
+              "SOURCE_SCOPE",
+              "CANONICAL",
+              "PASS",
+              "Nguồn gộp chi phí khảo sát bước thiết kế bản vẽ thi công, chưa phân bổ bốn loại báo cáo B1030.10–B1030.40; giữ một lần tại B1030."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "NS02-MAP-0002",
+              "NS02-BOQ-0002",
+              "PL2_GIA HD",
+              11,
+              "2",
+              "CHI PHÍ XÂY DỰNG > HẠNG MỤC CHUNG",
+              "CHI PHÍ THIẾT KẾ BƯỚC THIẾT KẾ BẢN VẼ THI CÔNG",
+              "Trọn gói",
+              1,
+              4403154294,
+              4403154294,
+              "CMS",
+              "CMS.B3050",
+              "B3050",
+              "Thiết kế bản vẽ thi công",
+              "B3050",
+              "MATCHED_ALLOCATED",
+              "DOCUMENT_RESULT",
+              "USE_EXISTING",
+              "DIRECT_MATCH",
+              "Chi phí tạo bộ thiết kế bản vẽ thi công phù hợp B3050.",
+              null,
+              4403154294,
+              0,
+              0,
+              0,
+              "CURRENT_KEY",
+              "ALLOCATED",
+              null,
+              "PENDING_REVIEW",
+              null,
+              "BOQ-SRC-004-HDG-0001",
+              "NO",
+              "NS02-WPO-0001-B3050",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "SOURCE_SCOPE",
+              "CONFIRMED_BY_SOURCE",
+              "NO",
+              "SOURCE_SCOPE",
+              "CANONICAL",
+              "PASS",
+              "Chi phí tạo bộ thiết kế bản vẽ thi công phù hợp B3050."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "03_LBS",
+        "max_row": 26,
+        "max_column": 10,
+        "nonempty_rows": 25,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_07.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "LBS DỰ ÁN TỐI THIỂU"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Chỉ mở node có bằng chứng; không tạo occurrence giả"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "LBS_ID",
+              "LBS_Code",
+              "Parent_LBS_ID",
+              "LBS_Level",
+              "LBS_Type",
+              "Tên phạm vi",
+              "Source_Ref",
+              "Detail_Status",
+              "Status",
+              "Ghi chú"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "LBS-CMS",
+              "CMS",
+              null,
+              1,
+              "PRJ",
+              "Toàn phạm vi gói XL-NS.02.02 Cầu Mễ Sở",
+              "PL2 — toàn bộ phạm vi",
+              "CONFIRMED_BY_SOURCE",
+              "DRAFT",
+              "Mã gói được giữ trong metadata; CMS là alias dự án tạm."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "LBS-CMS-DD01",
+              "CMS.DD01",
+              "LBS-CMS",
+              2,
+              "DDA",
+              "Phần đường thuộc phạm vi gói XL-NS.02.02",
+              "PL2 — VI PHẦN ĐƯỜNG",
+              "CONFIRMED_BY_SOURCE",
+              "DRAFT",
+              "Nguồn chưa tách occurrence đoạn đường."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "07_LBS_WBS_REF",
+        "max_row": 110,
+        "max_column": 12,
+        "nonempty_rows": 109,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_08.json",
+        "formula_count": 530,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "H5",
+            "formula": "=COUNTIF('04_MAPPING'!M$5:M$605,A5)",
+            "cached": 1
+          },
+          {
+            "cell": "I5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$605,A5,'04_MAPPING'!K$5:K$605)",
+            "cached": 1293103254
+          },
+          {
+            "cell": "J5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$605,A5,'04_MAPPING'!W$5:W$605)",
+            "cached": 1293103254
+          },
+          {
+            "cell": "K5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$605,A5,'04_MAPPING'!X$5:X$605)",
+            "cached": 0
+          },
+          {
+            "cell": "L5",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$605,A5,'04_MAPPING'!Y$5:Y$605)",
+            "cached": 0
+          },
+          {
+            "cell": "H6",
+            "formula": "=COUNTIF('04_MAPPING'!M$5:M$605,A6)",
+            "cached": 1
+          },
+          {
+            "cell": "I6",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$605,A6,'04_MAPPING'!K$5:K$605)",
+            "cached": 25008415852
+          },
+          {
+            "cell": "J6",
+            "formula": "=SUMIF('04_MAPPING'!M$5:M$605,A6,'04_MAPPING'!W$5:W$605)",
+            "cached": 25008415852
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "DANH MỤC KHÓA LBS.WBS"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Một dòng cho mỗi khóa unique; giá trị tính từ 04_MAPPING"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "LBS.WBS_Code",
+              "LBS_Coverage_Code",
+              "WBS_Code",
+              "WBS_Name",
+              "Key_Type",
+              "Mapping_Status",
+              "Register_ID",
+              "Số dòng BOQ",
+              "Tổng giá trị nguồn",
+              "Đã phân bổ",
+              "Chưa phân bổ",
+              "Chưa ghép"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "CMS.A7010",
+              "CMS",
+              "A7010",
+              "Phương án và hệ thống bảo đảm giao thông đường bộ trong thi công",
+              "CURRENT_KEY",
+              "MATCHED_ALLOCATED",
+              null,
+              1,
+              1293103254,
+              1293103254,
+              0,
+              0
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "CMS.A7020",
+              "CMS",
+              "A7020",
+              "Phương án và hệ thống bảo đảm an toàn hàng hải trong thi công",
+              "CURRENT_KEY",
+              "MATCHED_ALLOCATED",
+              null,
+              1,
+              25008415852,
+              25008415852,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "08_TEMP_ROLLUP_REF",
+        "max_row": 19,
+        "max_column": 12,
+        "nonempty_rows": 18,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_09.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "THAM CHIẾU TEM VÀ ROLL-UP"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "TEM dùng tạm; roll-up kiểm soát phần chưa đủ occurrence/độ sâu WBS"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Record_Type",
+              "Code",
+              "Name/Role",
+              "Parent/Coverage",
+              "Key_Type",
+              "Value_Eligible",
+              "Status",
+              "Candidate_WBS",
+              "Verifies_WBS",
+              "Source_IDs",
+              "Register_ID",
+              "Replacement_Plan"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "TEMP_WBS",
+              "TEM0100",
+              "Kết quả thí nghiệm cọc",
+              null,
+              "ROLLUP",
+              "NO",
+              "UNDER_AUDIT",
+              "E",
+              null,
+              "BOQ-SRC-004",
+              "WBR-002; WBE-002",
+              "Thay bằng mã canonical nhánh E sau audit và Decision; không sửa Twin từ workbook."
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "TEMP_WBS",
+              "TEM0101",
+              "Kết quả kiểm tra tính đồng nhất thân cọc",
+              null,
+              "LEAF",
+              "YES",
+              "UNDER_AUDIT",
+              "E",
+              null,
+              "BOQ-SRC-004",
+              "WBR-002; WBE-002",
+              "Thay bằng mã canonical nhánh E sau audit và Decision; không sửa Twin từ workbook."
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "09_VERIFICATION_MAP",
+        "max_row": 46,
+        "max_column": 12,
+        "nonempty_rows": 45,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_10.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "ÁNH XẠ QUAN HỆ XÁC MINH"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "VERIFIES không mang giá trị; không tự suy diễn mã được xác minh"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Verification_ID",
+              "BOQ_Line_ID",
+              "Test_LBS_WBS_Code",
+              "Verified_WBS_Code",
+              "LBS_Coverage_Code",
+              "Relationship_Type",
+              "Test_Method",
+              "Verification_Status",
+              "Value_Count_Flag",
+              "Source_Mapping_ID",
+              "Register_ID",
+              "Source_Ref"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "XLNS0202CAUMESO-VER-0001",
+              "NS02-BOQ-0006",
+              "CMS.C01.KPD1.T00.TEM0101",
+              "F2010",
+              "CMS.C01.KPD1.T00",
+              "VERIFIES",
+              "Siêu âm cọc D2.0m",
+              "LINKED",
+              "NO",
+              "NS02-MAP-0006",
+              "WBR-002; WBE-002",
+              "PL2_GIA HD!20:20"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "XLNS0202CAUMESO-VER-0002",
+              "NS02-BOQ-0007",
+              "CMS.C01.KPD1.T00.TEM0102",
+              "F2010",
+              "CMS.C01.KPD1.T00",
+              "VERIFIES",
+              "Khoan lõi + khoan mùn cọc D2.0m",
+              "LINKED",
+              "NO",
+              "NS02-MAP-0007",
+              "WBR-002; WBE-002",
+              "PL2_GIA HD!21:21"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "11_FRAMEWORK_DELTA",
+        "max_row": 5,
+        "max_column": 9,
+        "nonempty_rows": 4,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL03_11.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "FRAMEWORK DELTA REGISTER"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Chỉ ghi vấn đề phương pháp dùng chung; không sửa Framework/Twin trong lượt build"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Delta_ID",
+              "Source_ID",
+              "Vấn đề phát hiện",
+              "Khoảng trống dùng chung?",
+              "Đề xuất",
+              "Bằng chứng",
+              "Sheet/Rule bị ảnh hưởng",
+              "Trạng thái",
+              "Decision_ID"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "FDR-005",
+              "BOQ-SRC-004",
+              "Profile LBS giao thông hỗn hợp chưa có loại node dự án cho Kết cấu phần dưới/Kết cấu phần trên theo yêu cầu quản trị của chủ sở hữu.",
+              "YES",
+              "Đánh giá bổ sung loại KPD/KPT hoặc cơ chế Structural_Scope trong profile; bản Draft này dùng Project Extension KPD1/KPT1 và giữ truy vết chỉ đạo ngày 2026-08-28.",
+              "BOQ-SRC-004; chỉ đạo trực tiếp của người dùng; các block KẾT CẤU PHẦN DƯỚI/KẾT CẦU PHẦN TRÊN lặp trong PL2.",
+              "04_MAPPING; 05_EXCEPTION; 06_RECONCILIATION",
+              "PENDING_DECISION"
+            ]
+          }
+        ]
+      }
+    ],
+    "unchanged_after_read": true
+  },
+  {
+    "source_id": "TPL04",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\CC1-PRESENTATION-OBS-LBS-WBS-VD4-V0.5.0-DRAFT.pptx",
+    "filename": "CC1-PRESENTATION-OBS-LBS-WBS-VD4-V0.5.0-DRAFT.pptx",
+    "sha256": "05a9991315a173329df431aaff5c62400ff1259aef61209fc073d74e6b3dc951",
+    "bytes": 15187744,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "slide_count": 30,
+    "embedded_media_count": 7,
+    "text_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL04.txt",
+    "text_chars": 18693,
+    "coverage": "Text paragraphs/shapes extracted; embedded images and diagram geometry not semantically read",
+    "unchanged_after_read": true
+  },
+  {
+    "source_id": "TPL05",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\CC1-WBS-MASTER-V1.20.0-IN-REVIEW.xlsx",
+    "filename": "CC1-WBS-MASTER-V1.20.0-IN-REVIEW.xlsx",
+    "sha256": "18a1e3aa909f9c0468787c5d614af82ac1138ae91319b4e439cbfb6798c8ea96",
+    "bytes": 156442,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "sheets": [
+      {
+        "sheet": "THƯ VIỆN WBS",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 359,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL05_01.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "MÃ CẤP 1",
+              "TÊN CẤP 1",
+              "MÃ CẤP 2",
+              "TÊN CẤP 2",
+              "MÃ CẤP 3",
+              "TÊN CẤP 3",
+              "MÃ CẤP 4",
+              "TÊN CẤP 4",
+              "MÃ CẤP 5",
+              "TÊN CẤP 5",
+              "TRẠNG THÁI RÀ SOÁT NHÁNH H"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Z",
+              "TỔNG THỂ"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "A",
+              "CÔNG TÁC CHUẨN BỊ",
+              "A10",
+              "HUY ĐỘNG VÀ GIẢI HUY ĐỘNG THIẾT BỊ",
+              "A1010",
+              "Huy động thiết bị"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "A",
+              "CÔNG TÁC CHUẨN BỊ",
+              "A10",
+              "HUY ĐỘNG VÀ GIẢI HUY ĐỘNG THIẾT BỊ",
+              "A1020",
+              "Giải huy động thiết bị"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "A",
+              "CÔNG TÁC CHUẨN BỊ",
+              "A20",
+              "MẶT BẰNG VÀ ĐỊNH VỊ BAN ĐẦU",
+              "A2010",
+              "Tiếp nhận mặt bằng thi công"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "TỪ ĐIỂN DỮ LIỆU",
+        "max_row": null,
+        "max_column": null,
+        "nonempty_rows": 332,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL05_02.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "TỪ ĐIỂN DỮ LIỆU WBS — LÔ PREVIEW — Twin 4.16.0; DEC-178 thêm L1 O giữ chỗ, chưa có L2/L3/Từ điển; PWR-024 đang đào sâu, PWR-029 phát triển sau; DEC-176 giữ nhánh N để rà tổng thể, CIV-N-G01…G04 còn mở; L/L10/L20 và A40 tiếp tục giữ chỗ; không phải baseline Approved"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Dữ liệu phục vụ rà soát bằng mắt. Mã dùng chung chỉ có một định nghĩa; đơn vị đo chờ kết luận được đánh dấu rõ."
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "MÃ",
+              "TÊN",
+              "CẤP",
+              "MÃ CHA",
+              "ĐỊNH NGHĨA",
+              "BAO GỒM",
+              "KHÔNG BAO GỒM",
+              "ĐƠN VỊ ĐO",
+              "QUY TẮC ĐO",
+              "TIÊU CHÍ NGHIỆM THU",
+              "HỒ SƠ ĐẦU RA",
+              "TRẠNG THÁI"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "A1010",
+              "Huy động thiết bị",
+              3,
+              "A10",
+              "Gói thiết bị thuộc phạm vi huy động đã được đưa đến công trường, hoàn tất các điều kiện chuẩn bị áp dụng và ở trạng thái sẵn sàng vận hành cho mục đích dự kiến.",
+              "trạng thái hoàn thành sau vận chuyển, tiếp nhận, lắp ráp/lắp đặt, kiểm tra hoặc chạy thử khi áp dụng.",
+              "vận hành sản xuất; điều chuyển nội bộ; bệ máy, đường công vụ, trạm điện hoặc công trình phụ trợ có mã WBS riêng; danh mục Resource như thành phần L4.",
+              "gói huy động thiết bị hoàn thành được chấp nhận.",
+              "Mỗi phạm vi/danh mục huy động được phê duyệt tại một control object chỉ tính một gói khi toàn bộ điều kiện sẵn sàng áp dụng đã đạt. Không cộng riêng chuyến vận chuyển, từng bước Activity hoặc thiết bị đã ghi trùng trong cùng gói; tiến độ từng phần theo Activity/milestone.",
+              "Thiết bị thuộc danh mục/phạm vi yêu cầu đã có mặt đúng site; tình trạng, năng lực, lắp đặt/kết nối, an toàn và điều kiện kiểm tra–kiểm định–hiệu chuẩn–chạy thử khi áp dụng đáp ứng hồ sơ dự án; sẵn sàng vận hành và không còn sai lệch chưa được chấp thuận.",
+              "Kế hoạch và danh mục huy động được chấp thuận; hồ sơ giao nhận/tiếp nhận; kiểm tra tình trạng; hồ sơ kiểm định, hiệu chuẩn hoặc chạy thử khi áp dụng; biên bản/xác nhận sẵn sàng và hồ sơ không phù hợp nếu có.",
+              "Đã phê duyệt — dùng riêng"
+            ]
+          },
+          {
+            "row": 6,
+            "cells": [
+              "A1020",
+              "Giải huy động thiết bị",
+              3,
+              "A10",
+              "Gói thiết bị thuộc phạm vi giải huy động đã ngừng phục vụ tại site, được tháo tách an toàn khi áp dụng và được di chuyển ra khỏi công trường theo phạm vi được chấp thuận.",
+              "trạng thái hoàn thành sau ngừng vận hành, cô lập, tháo dỡ phần gắn trực tiếp với thiết bị, kiểm tra và đưa thiết bị ra khỏi site.",
+              "điều chuyển nội bộ; tháo dỡ công trình tạm, bệ máy/hạ tầng; xử lý chất thải; hoàn trả mặt bằng có Work Result riêng; điểm đến hoặc cự ly vận chuyển như thuộc tính WBS.",
+              "gói giải huy động thiết bị hoàn thành được chấp nhận.",
+              "Mỗi phạm vi/danh mục giải huy động được phê duyệt tại một control object chỉ tính một gói sau khi thiết bị đã ra khỏi site và các giao diện trực tiếp được xử lý an toàn. Không cộng riêng chuyến, thiết bị hoặc từng bước Activity; phần hoàn trả vật lý đo tại Work Result tương ứng.",
+              "Thiết bị thuộc phạm vi phải rút không còn tại site; kết nối/giao diện trực tiếp đã được cô lập hoặc tháo tách an toàn; tình trạng và bàn giao/điều chuyển được ghi nhận; khu vực được bàn giao cho Work Result hoàn trả tiếp theo khi có; không còn sai lệch chưa chấp thuận.",
+              "Kế hoạch và danh mục giải huy động; xác nhận ngừng vận hành/cô lập; biên bản kiểm tra tình trạng; chứng từ giao nhận/điều chuyển hoặc xác nhận ra cổng khi áp dụng; biên bản bàn giao khu vực và hồ sơ không phù hợp nếu có.",
+              "Đã phê duyệt — dùng riêng"
+            ]
+          }
+        ]
+      }
+    ],
+    "unchanged_after_read": true
+  },
+  {
+    "source_id": "TPL06",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\WBS_DuAn Cat Lai_1004.xlsx",
+    "filename": "WBS_DuAn Cat Lai_1004.xlsx",
+    "sha256": "b850b30935b254c1f0b36e9223b14c900b45edebd248d9371ab4669c1c79dc35",
+    "bytes": 71636,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "sheets": [
+      {
+        "sheet": "WBS PPP (chi tiết)",
+        "max_row": 173,
+        "max_column": 20,
+        "nonempty_rows": 172,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL06_01.json",
+        "formula_count": 175,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "O21",
+            "formula": "=P18",
+            "cached": "2025-11-18T00:00:00"
+          },
+          {
+            "cell": "O22",
+            "formula": "=P21",
+            "cached": "2025-11-19T00:00:00"
+          },
+          {
+            "cell": "O23",
+            "formula": "=P22",
+            "cached": "2025-11-24T00:00:00"
+          },
+          {
+            "cell": "O24",
+            "formula": "=P23",
+            "cached": "2025-11-25T00:00:00"
+          },
+          {
+            "cell": "O33",
+            "formula": "=P26",
+            "cached": "2025-12-10T00:00:00"
+          },
+          {
+            "cell": "O35",
+            "formula": "=P34",
+            "cached": "2026-01-14T00:00:00"
+          },
+          {
+            "cell": "O36",
+            "formula": "=P35",
+            "cached": "2026-01-14T00:00:00"
+          },
+          {
+            "cell": "O38",
+            "formula": "=O15",
+            "cached": "2025-08-25T00:00:00"
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Mã WBS",
+              "Cấp",
+              "Tên công việc",
+              "Sản phẩm / Đầu ra",
+              "R – Chịu trách nhiệm",
+              "A – Phê duyệt",
+              "C/I – Tham vấn / Báo",
+              "Phụ thuộc",
+              "Mốc / Milestone",
+              "Rủi ro chính",
+              "Biện pháp kiểm soát",
+              "Bắt đầu (KH)",
+              "Số ngày thực hiện",
+              "Kết thúc (KH)",
+              "Bắt đầu (TT)",
+              "Kết thúc (TT)",
+              "% HT",
+              "Trạng thái",
+              "Căn cứ pháp lý",
+              "Tình trạng thực hiện"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "1",
+              1,
+              "GĐ1. CHUẨN BỊ & ĐỀ XUẤT DỰ ÁN"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "1.1",
+              2,
+              "Xác định dự án tiềm năng"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "1.1.1",
+              3,
+              "Đề xuất quan tâm tiếp cận thông tin Dự án",
+              "Văn bản số 705/TCT-ĐT ngày 07/8/2025",
+              "Đầu tư",
+              "TGĐ",
+              "Phòng Ban CC1",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "2025-08-07T00:00:00",
+              "2025-08-07T00:00:00",
+              null,
+              "Đã hoàn thành",
+              "Luật Quy hoạch; \nLuật Đầu tư công;\nLuật PPP"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "1.2",
+              2,
+              "Xác lập chủ thể & phương thức đề xuất",
+              "QĐ giao nhiệm vụ chuẩn bị",
+              "CQCTQ",
+              "Cấp có thẩm quyền",
+              "Bộ ngành, ĐP"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Mẫu 5 cấp (GĐ3) + EA",
+        "max_row": 54,
+        "max_column": 9,
+        "nonempty_rows": 53,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL06_02.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Mã WBS",
+              "Cấp",
+              "Tên công việc",
+              "Lớp EA tương đương",
+              "Mã EA (minh hoạ)",
+              "Sản phẩm / Đầu ra",
+              "R",
+              "A",
+              "KS ✓"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "3",
+              1,
+              "GĐ3. LỰA CHỌN NHÀ ĐẦU TƯ",
+              "E2E",
+              "PRC-E2E-LCNĐT",
+              "Kết quả lựa chọn NĐT",
+              "Bên mời thầu",
+              "CQCTQ"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "3.1",
+              2,
+              "Chuẩn bị lựa chọn nhà đầu tư",
+              "Bước E2E",
+              "E2E-B01",
+              "HSMT/HSMST được duyệt",
+              "Bên mời thầu",
+              "CQCTQ"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "3.1.1",
+              3,
+              "Lập & phê duyệt Kế hoạch lựa chọn NĐT",
+              "SOP",
+              "SOP-LCNĐT-01",
+              "KHLCNĐT",
+              "Bên mời thầu",
+              "CQCTQ"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "3.1.1.1",
+              4,
+              "Soạn thảo Kế hoạch lựa chọn NĐT",
+              "WI",
+              "WI-01",
+              "Dự thảo KHLCNĐT",
+              "Chuyên viên đấu thầu",
+              "Trưởng bộ phận"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Chú giải & Vai trò",
+        "max_row": 19,
+        "max_column": 2,
+        "nonempty_rows": 18,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL06_03.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Ký hiệu",
+              "Diễn giải"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "R",
+              "Responsible – Chịu trách nhiệm thực hiện công việc"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "A",
+              "Accountable – Phê duyệt/chịu trách nhiệm cuối cùng (1 chủ thể)"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "C/I",
+              "Consulted/Informed – Được tham vấn / được thông báo"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "◆",
+              "Mốc quan trọng (milestone) của dự án"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Lịch mốc (mẫu)",
+        "max_row": 12,
+        "max_column": 6,
+        "nonempty_rows": 11,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL06_04.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "#",
+              "Mốc quan trọng",
+              "Mã WBS",
+              "Giai đoạn",
+              "Thời điểm điển hình (tháng lũy kế)*",
+              "Ý nghĩa"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              1,
+              "Duyệt chủ trương đầu tư",
+              "2.2.3",
+              "GĐ2",
+              "T+9 … T+15",
+              "Cơ sở lập FS"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              2,
+              "Duyệt dự án PPP",
+              "2.4.2",
+              "GĐ2",
+              "T+18 … T+27",
+              "Cơ sở lựa chọn NĐT"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              3,
+              "Có nhà đầu tư trúng thầu",
+              "3.3.2",
+              "GĐ3",
+              "T+27 … T+39",
+              "Xác định NĐT"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              4,
+              "Ký hợp đồng dự án",
+              "4.2",
+              "GĐ4",
+              "T+30 … T+44",
+              "Ràng buộc pháp lý"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Sổ rủi ro (mẫu)",
+        "max_row": 11,
+        "max_column": 8,
+        "nonempty_rows": 11,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL06_05.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "#",
+              "Rủi ro",
+              "Giai đoạn/WBS",
+              "Khả năng",
+              "Mức tác động",
+              "Bên gánh chính",
+              "Biện pháp giảm thiểu",
+              "Đặc thù BOT"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              1,
+              "Sai số dự báo lưu lượng/nhu cầu",
+              "GĐ1-2 / 1.3.2",
+              "Cao",
+              "Cao",
+              "Nhà đầu tư",
+              "Kịch bản, kiểm định độc lập, cơ chế chia sẻ DT",
+              "BOT: rủi ro doanh thu chính"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              2,
+              "GPMB chậm / chi phí tăng",
+              "GĐ2,6 / 6.1",
+              "Cao",
+              "Cao",
+              "Nhà nước",
+              "Tách tiểu dự án vốn công, chuẩn bị TĐC sớm",
+              "Ảnh hưởng mốc thu phí"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              3,
+              "Không đạt đóng tài chính",
+              "GĐ5 / 5.4",
+              "Trung bình",
+              "Cao",
+              "Nhà đầu tư/DNDA",
+              "Cam kết tín dụng sớm, cấu trúc vốn vững",
+              "Trễ khởi công"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              4,
+              "Đội vốn / chậm tiến độ thi công",
+              "GĐ6 / 6.4",
+              "Trung bình",
+              "Cao",
+              "Nhà đầu tư/Nhà thầu",
+              "HĐ EPC trọn gói, quản lý tiến độ, dự phòng",
+              "NĐT gánh rủi ro xây dựng"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "So sánh loại HĐ PPP",
+        "max_row": 11,
+        "max_column": 6,
+        "nonempty_rows": 11,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL06_06.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Tiêu chí",
+              "BOT",
+              "BTO",
+              "BOO",
+              "O&M",
+              "BLT/BTL"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Tên đầy đủ",
+              "Xây dựng-Kinh doanh-Chuyển giao",
+              "Xây dựng-Chuyển giao-Kinh doanh",
+              "Xây dựng-Sở hữu-Kinh doanh",
+              "Kinh doanh-Quản lý",
+              "Xây-Thuê-Chuyển giao / khả dụng"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "Có giai đoạn Xây dựng?",
+              "Có",
+              "Có",
+              "Có",
+              "Không (công trình có sẵn)",
+              "Có"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Nguồn thu của NĐT",
+              "Phí/giá từ người dùng",
+              "Phí/giá từ người dùng",
+              "Doanh thu thị trường",
+              "Phí quản lý-vận hành",
+              "NN thanh toán theo khả dụng"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "Rủi ro nhu cầu/lưu lượng",
+              "Nhà đầu tư",
+              "Nhà đầu tư",
+              "Nhà đầu tư",
+              "Theo hợp đồng",
+              "Nhà nước (NĐT chịu rủi ro khả dụng)"
+            ]
+          }
+        ]
+      }
+    ],
+    "unchanged_after_read": true
+  },
+  {
+    "source_id": "TPL07",
+    "path": "D:\\WBS SEP HUAN\\MAU WBS MINH & TONG HOP\\WBS_DuAn_Long Hung_7297.xlsx",
+    "filename": "WBS_DuAn_Long Hung_7297.xlsx",
+    "sha256": "9af4494db0d6b4a527b1768af07e2160fb8908188448ac5b45fb055566164710",
+    "bytes": 71966,
+    "status": "LOCAL_SOURCE_NOT_APPROVED_BY_THIS_TASK",
+    "sheets": [
+      {
+        "sheet": "WBS PPP (chi tiết)",
+        "max_row": 177,
+        "max_column": 20,
+        "nonempty_rows": 176,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL07_01.json",
+        "formula_count": 170,
+        "formula_cache_missing": 0,
+        "formula_sample": [
+          {
+            "cell": "O43",
+            "formula": "=P42",
+            "cached": "2026-09-03T00:00:00"
+          },
+          {
+            "cell": "O44",
+            "formula": "=P43",
+            "cached": "2025-12-10T00:00:00"
+          },
+          {
+            "cell": "O45",
+            "formula": "=P44",
+            "cached": "2026-01-22T00:00:00"
+          },
+          {
+            "cell": "O46",
+            "formula": "=P45",
+            "cached": "2026-02-10T00:00:00"
+          },
+          {
+            "cell": "O47",
+            "formula": "=P46",
+            "cached": "2026-02-12T00:00:00"
+          },
+          {
+            "cell": "O48",
+            "formula": "=P47",
+            "cached": "2026-03-04T00:00:00"
+          },
+          {
+            "cell": "O49",
+            "formula": "=P48",
+            "cached": "2026-03-05T00:00:00"
+          },
+          {
+            "cell": "L54",
+            "formula": "=P35",
+            "cached": "2026-06-11T00:00:00"
+          }
+        ],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Mã cơ cấu phân chia công việc (WBS)",
+              "Cấp",
+              "Tên công việc",
+              "Sản phẩm / Đầu ra",
+              "R – Chịu trách nhiệm",
+              "A – Phê duyệt",
+              "Tham vấn/Thông báo (C/I)",
+              "Phụ thuộc",
+              "Mốc / Milestone",
+              "Rủi ro chính",
+              "Biện pháp kiểm soát",
+              "Bắt đầu (KH)",
+              "Số ngày thực hiện",
+              "Kết thúc (KH)",
+              "Bắt đầu (TT)",
+              "Kết thúc (TT)",
+              "% HT",
+              "Trạng thái",
+              "Căn cứ pháp lý",
+              "Tình trạng thực hiện"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "1",
+              1,
+              "GĐ1. CHUẨN BỊ & ĐỀ XUẤT DỰ ÁN"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "1.1",
+              2,
+              "Xác định dự án tiềm năng"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "1.1.1",
+              3,
+              "Đề xuất quan tâm tiếp cận thông tin Dự án",
+              "Văn bản số 705/TCT-ĐT ngày 07/8/2025",
+              "Đầu tư",
+              "TGĐ",
+              "Phòng Ban CC1",
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              "2025-08-07T00:00:00",
+              "2025-08-07T00:00:00",
+              null,
+              "Đã hoàn thành",
+              "Luật Quy hoạch; \nLuật Đầu tư công;\nLuật PPP"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "1.2",
+              2,
+              "Xác lập chủ thể & phương thức đề xuất",
+              "QĐ giao nhiệm vụ chuẩn bị",
+              "CQCTQ",
+              "Cấp có thẩm quyền",
+              "Bộ ngành, ĐP"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Mẫu 5 cấp (GĐ3) + EA",
+        "max_row": 54,
+        "max_column": 9,
+        "nonempty_rows": 53,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL07_02.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Mã cơ cấu phân chia công việc (WBS)",
+              "Cấp",
+              "Tên công việc",
+              "Lớp kiến trúc doanh nghiệp (EA) tương đương",
+              "Mã EA (minh hoạ)",
+              "Sản phẩm / Đầu ra",
+              "R",
+              "A",
+              "KS ✓"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "3",
+              1,
+              "GĐ3. LỰA CHỌN NHÀ ĐẦU TƯ",
+              "Quy trình đầu-cuối (E2E)",
+              "PRC-E2E-LCNĐT",
+              "Kết quả lựa chọn NĐT",
+              "Bên mời thầu",
+              "CQCTQ"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "3.1",
+              2,
+              "Chuẩn bị lựa chọn nhà đầu tư",
+              "Bước E2E",
+              "E2E-B01",
+              "HSMT/HSMST được duyệt",
+              "Bên mời thầu",
+              "CQCTQ"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "3.1.1",
+              3,
+              "Lập & phê duyệt Kế hoạch lựa chọn NĐT",
+              "Quy trình thao tác chuẩn (SOP)",
+              "SOP-LCNĐT-01",
+              "KHLCNĐT",
+              "Bên mời thầu",
+              "CQCTQ"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "3.1.1.1",
+              4,
+              "Soạn thảo Kế hoạch lựa chọn NĐT",
+              "Hướng dẫn công việc (WI)",
+              "WI-01",
+              "Dự thảo KHLCNĐT",
+              "Chuyên viên đấu thầu",
+              "Trưởng bộ phận"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Chú giải & Vai trò",
+        "max_row": 19,
+        "max_column": 2,
+        "nonempty_rows": 18,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL07_03.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Ký hiệu",
+              "Diễn giải"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "R",
+              "Responsible – Chịu trách nhiệm thực hiện công việc"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "A",
+              "Accountable – Phê duyệt/chịu trách nhiệm cuối cùng (1 chủ thể)"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "C/I",
+              "Consulted/Informed – Được tham vấn / được thông báo"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "◆",
+              "Mốc quan trọng (milestone) của dự án"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Lịch mốc (mẫu)",
+        "max_row": 12,
+        "max_column": 6,
+        "nonempty_rows": 11,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL07_04.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "#",
+              "Mốc quan trọng",
+              "Mã cơ cấu phân chia công việc (WBS)",
+              "Giai đoạn",
+              "Thời điểm điển hình (tháng lũy kế)*",
+              "Ý nghĩa"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              1,
+              "Duyệt chủ trương đầu tư",
+              "2.2.3",
+              "GĐ2",
+              "T+9 … T+15",
+              "Cơ sở lập Báo cáo nghiên cứu khả thi (FS)"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              2,
+              "Duyệt dự án PPP",
+              "2.4.2",
+              "GĐ2",
+              "T+18 … T+27",
+              "Cơ sở lựa chọn NĐT"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              3,
+              "Có nhà đầu tư trúng thầu",
+              "3.3.2",
+              "GĐ3",
+              "T+27 … T+39",
+              "Xác định NĐT"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              4,
+              "Ký hợp đồng dự án",
+              "4.2",
+              "GĐ4",
+              "T+30 … T+44",
+              "Ràng buộc pháp lý"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "Sổ rủi ro (mẫu)",
+        "max_row": 11,
+        "max_column": 8,
+        "nonempty_rows": 11,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL07_05.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "#",
+              "Rủi ro",
+              "Giai đoạn/Cơ cấu phân chia công việc (WBS)",
+              "Khả năng",
+              "Mức tác động",
+              "Bên gánh chính",
+              "Biện pháp giảm thiểu",
+              "Đặc thù BOT"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              1,
+              "Sai số dự báo lưu lượng/nhu cầu",
+              "GĐ1-2 / 1.3.2",
+              "Cao",
+              "Cao",
+              "Nhà đầu tư",
+              "Kịch bản, kiểm định độc lập, cơ chế chia sẻ DT",
+              "BOT: rủi ro doanh thu chính"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              2,
+              "GPMB chậm / chi phí tăng",
+              "GĐ2,6 / 6.1",
+              "Cao",
+              "Cao",
+              "Nhà nước",
+              "Tách tiểu dự án vốn công, chuẩn bị TĐC sớm",
+              "Ảnh hưởng mốc thu phí"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              3,
+              "Không đạt đóng tài chính",
+              "GĐ5 / 5.4",
+              "Trung bình",
+              "Cao",
+              "Nhà đầu tư/DNDA",
+              "Cam kết tín dụng sớm, cấu trúc vốn vững",
+              "Trễ khởi công"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              4,
+              "Đội vốn / chậm tiến độ thi công",
+              "GĐ6 / 6.4",
+              "Trung bình",
+              "Cao",
+              "Nhà đầu tư/Nhà thầu",
+              "HĐ thiết kế - cung cấp thiết bị - thi công xây dựng (EPC) trọn gói, quản lý tiến độ, dự phòng",
+              "NĐT gánh rủi ro xây dựng"
+            ]
+          }
+        ]
+      },
+      {
+        "sheet": "So sánh loại HĐ PPP",
+        "max_row": 11,
+        "max_column": 6,
+        "nonempty_rows": 11,
+        "rows_ref": "runs_brian\\enterprise_dictionary_20261017_01\\intake\\TPL07_06.json",
+        "formula_count": 0,
+        "formula_cache_missing": 0,
+        "formula_sample": [],
+        "first_rows": [
+          {
+            "row": 1,
+            "cells": [
+              "Tiêu chí",
+              "BOT",
+              "BTO",
+              "BOO",
+              "O&M",
+              "BLT/BTL"
+            ]
+          },
+          {
+            "row": 2,
+            "cells": [
+              "Tên đầy đủ",
+              "Xây dựng-Kinh doanh-Chuyển giao",
+              "Xây dựng-Chuyển giao-Kinh doanh",
+              "Xây dựng-Sở hữu-Kinh doanh",
+              "Kinh doanh-Quản lý",
+              "Xây-Thuê-Chuyển giao / khả dụng"
+            ]
+          },
+          {
+            "row": 3,
+            "cells": [
+              "Có giai đoạn Xây dựng?",
+              "Có",
+              "Có",
+              "Có",
+              "Không (công trình có sẵn)",
+              "Có"
+            ]
+          },
+          {
+            "row": 4,
+            "cells": [
+              "Nguồn thu của NĐT",
+              "Phí/giá từ người dùng",
+              "Phí/giá từ người dùng",
+              "Doanh thu thị trường",
+              "Phí quản lý-vận hành",
+              "NN thanh toán theo khả dụng"
+            ]
+          },
+          {
+            "row": 5,
+            "cells": [
+              "Rủi ro nhu cầu/lưu lượng",
+              "Nhà đầu tư",
+              "Nhà đầu tư",
+              "Nhà đầu tư",
+              "Theo hợp đồng",
+              "Nhà nước (NĐT chịu rủi ro khả dụng)"
+            ]
+          }
+        ]
+      }
+    ],
+    "unchanged_after_read": true
+  }
+]

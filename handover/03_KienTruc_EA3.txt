@@ -1,0 +1,6 @@
+KIẾN TRÚC TÍCH HỢP EA3 — PROPOSED, CHƯA XÁC MINH CẤU HÌNH LIVE
+Nguồn: references/specs_20261013/architecture.md, interfaces.md, data_model.md; snapshot outputs/ccip_ea3_erp_crosswalk_20261010.
+EA3 nối chiến lược → năng lực → chức năng/quy trình → vai trò/thẩm quyền → ứng dụng/dữ liệu → KPI/kết quả. EPSMS quản node/definition/version/relationship; ERP quản giao dịch; BIM quản model revision/GUID; PMIS quản lịch/baseline/actual. Đây là ranh giới đề xuất, owner phải chốt SoR từng entity/field.
+Luồng đề xuất: UI/API xác thực → quản lý structure/version → governance/authority → relationship → integration hub → audit và analytics snapshot. AI chỉ tạo proposal có nguồn vào review queue, truy xuất theo ACL. Bảy lớp logic trong nguồn không có nghĩa đã triển khai bảy dịch vụ.
+Hợp đồng liên kết cần source/target ID và version, company/project, relation type, UOM/currency, hiệu lực, correlation/event ID, source hash, quyền, quy tắc retry/idempotency/quarantine/reconciliation. Adapter phải kiểm API/model/field/ACL thực; không suy từ tên Odoo/XBOSS rằng đã có kết nối.
+Lộ trình tích hợp: khảo sát canonical EA3 và hệ đích → read-only sandbox → đối soát/roundtrip → draft-write theo quyền → nghiệm thu/rollback → ghi thật khi có ủy quyền. Chưa có chứng cứ trong lần bàn giao này cho production integration.

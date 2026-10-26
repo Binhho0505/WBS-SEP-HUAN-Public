@@ -1,0 +1,9 @@
+# CERP-QTO libraries (Kiến trúc CC1-CERP-ARC-QTO-001 §4, spike 15/10/2026). Installed in .venv on 20/10/2026.
+ezdxf==1.4.4
+ifcopenshell==0.9.0
+shapely==2.2.0
+PyMuPDF==1.24.10
+# aec-platform/qto (MIT, "adopt có sửa") — editable from the local clone, pinned commit 82c1001658b2310c576c7fc39d721695e4382f2f:
+#   python -m pip install -e D:/Code/cerp-qto-repos/adopt/qto
+# libredwg dwg2dxf 0.14 (GPL, CLI only): D:/Code/cerp-qto-repos/fallback-cli/libredwg-0.14/win64/dwg2dxf.exe
+# Not installed: DDC Converter (forbidden, D-08), libdxfrw (not used), ODA File Converter (waiting for legal, OQ-QTO-01).

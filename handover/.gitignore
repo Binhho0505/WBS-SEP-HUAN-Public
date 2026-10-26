@@ -1,0 +1,39 @@
+references/
+objects/
+demo_runs/
+development_runs/
+*.zip
+.venv/
+__pycache__/
+local_app/runtime/
+delivery_20261017_01/transfer_smoke/
+delivery_20261017_01/qa/*.sqlite
+delivery_20261017_01/qa/exports/
+*.py[cod]
+.env
+.env.*
+!.env.example
+runs_brian/app_v020_20261017/qa/qa.sqlite
+runs_brian/app_v020_20261017/qa/exports/
+runs_brian/app_v020_20261017/*.bak
+runs_brian/norm_library_20261017/*.bak
+runs_brian/norm_library_20261017/qa/*.sqlite
+# D39: Excel lock files, raw source PDFs (kept on disk, hashes in raw/SHA256.txt), QA databases, regenerable rebuild outputs
+~$*
+runs_brian/state_market_prices_20261017/raw/*.pdf
+runs_brian/state_market_prices_20261017/qa/*.sqlite
+runs_brian/norm_library_20261017/bl56/datasets/
+runs_brian/norm_library_20261017/bl59/datasets/
+runs_brian/state_market_prices_20261017/*.bak
+
+runs_brian/norm_library_20261017/qa/*/*.sqlite
+# D58 (Codex): raw source downloads kept on disk with hashes in MANIFEST.sha256; extracted JSON regenerable by parse_prices.py
+runs_brian/dong_nai_prices_20261020/raw/
+runs_brian/dong_nai_prices_20261020/prices-extracted.json
+runs_brian/dong_nai_prices_20261020/prices-reviewed-labels.json
+runs_brian/subcontract_e10_20261020/qa_*/*.sqlite
+~$*
+runs_brian/user_manual_8765_20261021/qa.sqlite
+# Thư viện Python vendored (tải lại được), cache
+**/_deps/
+__pycache__/
