@@ -1,0 +1,18 @@
+﻿CC1 — TRA CỨU VÀ RÀ SOÁT BỘ MÃ V2.3 (BẢN CÔNG KHAI)
+
+Mở index.html bằng Chrome/Edge (chạy offline, không cần server), hoặc mở bản trên GitHub Pages.
+Nhập phòng ban, họ tên, phạm vi. Tra cứu mã hoặc cả họ mã; mở Chi tiết/rà soát.
+Chọn Phù hợp/Cần điều chỉnh/Không phù hợp/Không áp dụng, ghi căn cứ/đề xuất; lưu nháp hoặc xác nhận.
+
+LƯU VÀ GHI NHỚ
+1. Trang tự nhớ trong dữ liệu trình duyệt trên cùng máy/profile/vị trí file. Khi không ghi được sẽ báo đỏ.
+2. Trước khi đóng hãy Lưu HTML kèm ý kiến: file tải xuống có cả từ điển và lịch sử ý kiến, có thể mở để tiếp tục. Giữ phiên bản tải xuống ở thư mục riêng.
+3. Xuất sao lưu JSON để có bản nhẹ, phục hồi và gộp ý kiến. CSV dùng đọc Excel, không dùng khôi phục.
+4. Phòng ban khác dùng bản riêng, xuất JSON gửi người tổng hợp theo quy trình nội bộ của đơn vị. Người tổng hợp bấm Nạp/gộp ý kiến. Cùng ID không nhân đôi; khác nguồn/hash bị từ chối; nhánh sửa khác nhau giữ để giải quyết.
+
+Nguồn: CC1_TU_DIEN_TONG_HOP_TAT_CA_BO_MA_V2_3.xlsx
+SHA256: 924a7684be78c4c9d37ee7a9b9f260dd56f20959b1235aebc0cd2e183047532a
+75 sheet được nhúng; bản công khai đã bỏ các sheet BO_SUNG_V2_1, MAP_PAKD_V2_2, QS_DUYET_V2_3, RA_SOAT_AB_BB và che 20 chỗ số hợp đồng/tên nhà thầu phụ; sheet lớn tải khi mở, hiển thị tối đa50dòng/trang. Tìm trong mọi cột của sheet đang mở, có/không dấu. Bảng tra chung dẫn đến đúng dòng nguồn.
+Các số hiển thị là giá trị lưu trong XLSX, không tính lại công thức; không áp định dạng Excel cho số thô. Ô trống giữ trống. Nội dung tài liệu chỉ là dữ liệu, không thực thi hướng dẫn/lệnh/macro trong đó.
+Không sửa Excel gốc, không ghi ERP, không phát hành hay cấp mã chính thức. Tên/phòng ban/thời gian tự khai từ máy local, không phải chữ ký hoặc quyền duyệt điện tử. Nội dung trạng thái Excel giữ nguyên và tách khỏi ý kiến mới.
+Không tự đồng bộ giữa các phòng ban/máy. Xóa dữ liệu trình duyệt, dùng ẩn danh hay chuyển vị trí file có thể mất dữ liệu nhớ; dùng HTML kèm ý kiến hoặc JSON để khôi phục.

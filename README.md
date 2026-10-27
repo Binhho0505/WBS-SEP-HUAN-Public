@@ -13,6 +13,7 @@
 | [`CC1_WBS_CBS_Bo_tai_lieu_trien_khai.md`](CC1_WBS_CBS_Bo_tai_lieu_trien_khai.md) | Bộ tài liệu thiết kế quản trị tích hợp WBS/CBS/OBS/RBS/PBS/LBS: governance, RACI, control account, EVM, quy trình hợp đồng đến bàn giao, ERD, tích hợp ERP/PMIS/BIM |
 | `handover/01`–`04`, `06` | Mục tiêu và phạm vi, cấu trúc WBS/CBS, kiến trúc EA3, yêu cầu đơn giá/định mức, tiêu chí nghiệm thu |
 | `handover/PIPELINE.md`, `RUNBOOK_WBS.md`, `DoD_WBS.md` | Quy trình, runbook, Definition of Done |
+| [`docs/index.html`](docs/index.html) | **Từ điển bộ mã CC1 V2.3, chạy trên trình duyệt**: tra cứu 36 họ mã, 75 sheet, 358.453 dòng; rà soát và ghi ý kiến phòng ban, lưu offline. Mở trực tuyến: **https://binhho0505.github.io/WBS-SEP-HUAN-Public/**. Bản công khai đã bỏ 4 sheet rà soát hồ sơ thật (`BO_SUNG_V2_1`, `MAP_PAKD_V2_2`, `QS_DUYET_V2_3`, `RA_SOAT_AB_BB`) và che số hợp đồng/tên nhà thầu phụ |
 | [`VAN_BAN_PHAP_LY/`](VAN_BAN_PHAP_LY/) | Văn bản pháp lý công khai: Luật Xây dựng 135/2025, Luật Giá 16/2023, Luật Đầu tư công 58/2024, NĐ 206/2026 và 210/2026, TT36/37/38/2026-BXD cùng phụ lục, đính chính, văn bản hợp nhất, đấu thầu |
 
 ## 2. Chạy app
